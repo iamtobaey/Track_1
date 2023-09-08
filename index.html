@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuri Frontend Track</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="left">
+        <img
+          id="slackDisplayImage"
+          src="src/profile_img.png"
+          alt="Devtobaey"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+      <div class="right">
+        <h1 id="slackUserName" data-testid="slackUserName">Devtobaey</h1>
+        <p id="myTrack" data-testid="myTrack">Frontend Track</p>
+        <p id="currentDayOfTheWeek" data-testid="currentDayOfTheWeek">
+          Current Day of the Week: <span id="dayOfWeek"></span>
+        </p>
+        <p id="currentUTCTime" data-testid="currentUTCTime">
+          Current UTC Time: <span id="utcTime"></span> milliseconds
+        </p>
+        <!-- <p id="localTime" data-testid="localTime">
+          Current Local Time: <span id="currentTime"></span>
+        </p> -->
+
+        <p id="githubURL" data-testid="githubURL">
+          <a href="https://github.com/iamtobaey" target="_blank"
+            ><img id="githubImage" src="src/github.png" alt="Github"
+          /></a>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
